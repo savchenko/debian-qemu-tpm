@@ -42,3 +42,5 @@ sha1:
   9 : 0xE31C7D6093B9903E2EA04434AE6F28972ECB4D7B
   10: 0x0000000000000000000000000000000000000000
 ```
+
+**N.B.** Double-check PCRs behaviour on your particular system. E.g. you might want to bind PCR8 instead of PCR6, etc.
