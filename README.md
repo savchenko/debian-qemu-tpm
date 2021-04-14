@@ -43,4 +43,7 @@ sha1:
   10: 0x0000000000000000000000000000000000000000
 ```
 
-**N.B.** Double-check PCRs behaviour on your particular system. E.g. you might want to bind PCR8 instead of PCR6, etc.
+### Notes
+- Double-check PCRs behaviour on your particular system.
+- You might want to bind PCR8 instead of PCR6, etc.
+- Don't try to seal against >8 PCRs.
