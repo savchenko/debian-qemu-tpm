@@ -21,7 +21,8 @@ Static builds of `libtpms` v0.7.7 and `swtpm` v0.5.2 for Debian Bullseye.
 
 If you stumble upon "permission denied" errors - enable log level 3+ in `/etc/libvirt/libvirtd.conf` and trace where it fails.
 
-Tested on the host running pre-release version of the Bullseye:
+### Testing
+On the host running pre-release version of the Bullseye:
 - Linux 5.10.26-1 
 - virt-manager 3.2.0-3
 - libvirt0 7.0.0-3
