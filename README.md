@@ -8,7 +8,7 @@ Static builds of `libtpms` v0.7.7 and `swtpm` v0.5.2 for Debian Bullseye.
 
 ## Why?
 
-`apt install virt-manager` does not provide a functioning TPM2 out of the box. This repository rectifies this little issue.
+`apt install virt-manager` does not provide a functioning TPM2 out of the box. This repository rectifies the issue.
 
 ## How?
 
