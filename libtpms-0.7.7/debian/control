@@ -1,0 +1,24 @@
+Source: libtpms
+Maintainer: Stefan Berger <stefanb@linux.vnet.ibm.com>
+Section: libs
+Priority: optional
+Build-Depends: automake, autoconf, libtool, libssl-dev,
+ gawk, dh-exec, debhelper (>= 9), g++
+
+Package: libtpms0
+Architecture: any
+Multi-Arch: same
+Depends: openssl,
+	 ${shlibs:Depends},
+	 ${misc:Pre-Depends},
+	 ${misc:Depends}
+Description: TPM emulation library
+ Libtpms is a library that provides TPM functionality.
+
+Package: libtpms-dev
+Architecture: any
+Section: libdevel
+Depends: ${misc:Depends}, libtpms0 (= ${binary:Version})
+Description: libtpms header files and man pages
+ The libtpms-dev package provides header files and man pages for the
+ functions provided by libtpms.

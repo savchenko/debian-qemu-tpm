@@ -1,0 +1,79 @@
+CHANGES - changes for libtpms
+
+version 0.7.7
+ - CryptSym: fix AES output IV
+   A CVE has been filed for this bugfix. Unfortunately multi-step encrypted
+   data won't decrypt anymore but are now compatible with other TPM 2 devices.
+
+version 0.7.6
+  - tpm2: Fix public key context save due to ANY_OBJECT_Marshal usage
+    This fixes a suspend/resume problem when public keys are
+    loaded
+  - tpm2: Address some Coverity issues (false positives)
+  - tpm1.2: Backported ASAN/UBSAN related fixes
+
+version 0.7.5
+  - Note: The TPM 2 implementation returns 2048 bit keys with ~1984 bit
+          strength due to a bug in the TPM 2 key creation algo that cannot
+          easily be fixed. The bug is in RsaAjustPrimeCandidate, which is
+          called before the prime number check.
+  - tpm2: Return properly sized array for b parameter for NIST P521 (HLK)
+  - tpm2: Addressed issues detected by UBSAN
+  - tpm2: Addressed issues detected by cppcheck (false positives)
+
+version 0.7.4
+  - Addressed potential constant-time related issues in TPM 1.2 and TPM 2 code
+    TPM 1.2: RSA decryption
+    TPM 2: EcSchnorr and EcSM2 signatures; Ecsda is handled by OpenSSL
+  - Fixed some compilation issues
+
+version 0.7.3
+  - Fixed the set of PCRs belonging to the TCB group. This affects the
+    pcrUpdateCounter in TPM2_Pcrread() responses, thus needs latest `swtpm`
+    (master, stable branches) for test cases to succeed there.
+
+version 0.7.2
+  - Fix output buffer parameter and size for RSA decryption that could cause
+    stack corruption under certain circumstances
+  - Set the RSA PSS salt length to the digest length rathern than max. possible
+  - Fixes to symmetric decrytion related to input size check,
+    defer padding to the user [EVP_CIPHER_CTX_set_padding(ctx, 0)] and
+    to always use a temporary malloc'ed buffer for decryption
+
+version 0.7.1
+  - tpm2: Fix TDES key creation by adding missing un-/marshalling functions
+  - tpm2: Fix a bug in CheckAuthSession
+  - compilation fixes for TPM 1.2 & TPM 2 and various architectures and
+    gcc versions
+  - Fix support for NIST curves P{192,224,521} and SM2 P256 and BN P648
+    that would not work;
+  - Runtime filter elliptic curves (that OpenSSL does not support) and do
+    not advertise those curves as capabilities
+  - Removed unnecessary space in MANUFACTURER "IBM " -> "IBM"
+
+version 0.7.0
+  - use OpenSSL crypto for AES, TDES, EC, and RSA operations when possible
+
+version 0.6.0
+  - added TPM 2 support (revision 150)
+
+  - New API calls:
+    - TPMLIB_CancelCommand
+    - TPMLIB_ChooseTPMVersion
+    - TPMLIB_SetDebugFD
+    - TPMLIB_SetDebugLevel
+    - TPMLIB_SetDebugPrefix
+    - TPMLIB_SetBufferSize
+    - TPMLIB_ValidateState
+    - TPMLIB_SetState
+    - TPMLIB_GetState
+
+version 0.5.1
+  first public release
+
+  - release 7 increased NVRAM area for being able to store more data in
+    the TPM's NVRAM areas, i.e., X.509 certificates
+
+  - release 9 added two more APIs:
+    - TPM_Free
+    - TPMLIB_DecodeBlob
