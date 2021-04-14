@@ -12,7 +12,7 @@ Static builds of `libtpms` v0.7.7 and `swtpm` v0.5.2 for Debian Bullseye.
 
 ## How?
 
-1. Save yourself time and download pre-compiled binaries from "Releases" section.
+1. Save yourself time and download pre-compiled binaries from the [Releases](https://github.com/savchenko/debian-qemu-tpm/releases) section.
 2. `make install` both.
 3. Install the Python modules system-wide:
    - `./swtpm-0.5.2/src/swtpm_setup/`
