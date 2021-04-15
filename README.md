@@ -47,5 +47,6 @@ sha1:
 
 ### Notes
 - Double-check PCRs behaviour on your particular system.
-- You might want to bind PCR8 instead of PCR6 ([have a read](https://www.gnu.org/software/grub/manual/grub/html_node/Measured-Boot.html))
-- Don't try to seal against >8 PCRs.
+- You might want to bind PCR8 instead of PCR6 ([have a read](https://www.gnu.org/software/grub/manual/grub/html_node/Measured-Boot.html)).
+- Therefore, `clevis luks bind -d /dev/vda3 tpm2 '{"pcr_ids":"0,1,2,3,5,7,8,9"}'`.
+- Don't even try to seal against >8 PCRs.
