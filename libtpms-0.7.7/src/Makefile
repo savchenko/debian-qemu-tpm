@@ -1062,7 +1062,7 @@ PACKAGE_URL =
 PACKAGE_VERSION = 0.7.7
 PATH_SEPARATOR = :
 RANLIB = ranlib
-SANITIZERS = -fsanitize=address,undefined
+SANITIZERS = 
 SED = /usr/bin/sed
 SET_MAKE = 
 SHELL = /bin/bash
