@@ -3,7 +3,7 @@
 Static builds of `libtpms` v0.7.7 and `swtpm` v0.5.2 for Debian Bullseye.
 
 #### Configuration details
-- libtpms: `--prefix=/usr --enable-static --with-tpm2 --with-openssl --enable-sanitizers`.
+- libtpms: `--prefix=/usr --enable-static --with-tpm2 --with-openssl`
 - swtpm: `--prefix=/usr --enable-static --with-seccomp`
 
 `/usr` prefix is neccessary so that everything works with the bundled AppArmor profile: `/etc/apparmor.d/abstractions/libvirt-qemu`.
@@ -19,7 +19,6 @@ Static builds of `libtpms` v0.7.7 and `swtpm` v0.5.2 for Debian Bullseye.
 3. Install the Python modules system-wide:
    - `./swtpm-0.5.2/src/swtpm_setup/`
    - `./swtpm-0.5.2/samples/`
-4. Adjust `libvirt` AppArmor profile so that it can launch `swtpm*` binaries.
 
 If you stumble upon "permission denied" errors - enable log level 3+ in `/etc/libvirt/libvirtd.conf` and trace where it fails.
 
