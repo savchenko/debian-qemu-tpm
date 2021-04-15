@@ -3,7 +3,7 @@
 Static builds of `libtpms` v0.7.7 and `swtpm` v0.5.2 for Debian Bullseye.
 
 #### Configuration details
-- libtpms: `--prefix=/usr --enable-static --with-tpm2 --with-openssl`.
+- libtpms: `--prefix=/usr --enable-static --with-tpm2 --with-openssl`
 - swtpm: `--prefix=/usr --enable-static --with-seccomp`
 
 `/usr` prefix is neccessary so that everything works with the bundled AppArmor profile: `/etc/apparmor.d/abstractions/libvirt-qemu`.
