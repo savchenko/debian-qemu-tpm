@@ -1,0 +1,9 @@
+setup.py
+py_swtpm_localca/__init__.py
+py_swtpm_localca/swtpm_localca.py
+py_swtpm_localca/swtpm_localca_conf.py
+py_swtpm_localca/swtpm_utils.py
+swtpm_localca.egg-info/PKG-INFO
+swtpm_localca.egg-info/SOURCES.txt
+swtpm_localca.egg-info/dependency_links.txt
+swtpm_localca.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+swtpm-osx.o: osx.c /usr/include/stdc-predef.h ../../config.h osx.h
+/usr/include/stdc-predef.h:
+../../config.h:
+osx.h:

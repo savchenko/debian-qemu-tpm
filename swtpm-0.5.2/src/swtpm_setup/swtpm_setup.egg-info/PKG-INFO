@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: swtpm-setup
+Version: 0.5.2
+Summary: Swtpm tool for simulating the manufacturing of a TPM 1.2 or TPM 2
+Home-page: https::/github.com/stefanberger/swptm
+Author: Stefan Berger et al.
+Author-email: stefanb@linux.ibm.com
+License: BSD3
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.2

@@ -1,0 +1,12 @@
+README
+setup.py
+py_swtpm_setup/__init__.py
+py_swtpm_setup/swtpm.py
+py_swtpm_setup/swtpm_setup.py
+py_swtpm_setup/swtpm_setup_conf.py
+py_swtpm_setup/swtpm_utils.py
+swtpm_setup.egg-info/PKG-INFO
+swtpm_setup.egg-info/SOURCES.txt
+swtpm_setup.egg-info/dependency_links.txt
+swtpm_setup.egg-info/requires.txt
+swtpm_setup.egg-info/top_level.txt

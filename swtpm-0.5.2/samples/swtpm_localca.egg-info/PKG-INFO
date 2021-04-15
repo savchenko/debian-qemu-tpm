@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: swtpm-localca
+Version: 0.5.2
+Summary: A local CA for creating TPM 1.2 and TPM 2 EK and platform certificates
+Home-page: https::/github.com/stefanberger/swptm
+Author: Stefan Berger et al.
+Author-email: stefanb@linux.ibm.com
+License: BSD3
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.2

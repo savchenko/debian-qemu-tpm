@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+cryptolib=openssl
+
+Name: libtpms
+Version: 0.7.7
+Description: libtpms
+Libs: -L${libdir} -ltpms
+Cflags: -I${includedir}

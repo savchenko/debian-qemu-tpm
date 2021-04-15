@@ -1,0 +1,5 @@
+tpm2/libtpms_tpm2_la-TpmSizeChecks.lo: tpm2/TpmSizeChecks.c \
+ /usr/include/stdc-predef.h tpm_library_conf.h tpm2/TpmSizeChecks_fp.h
+/usr/include/stdc-predef.h:
+tpm_library_conf.h:
+tpm2/TpmSizeChecks_fp.h:

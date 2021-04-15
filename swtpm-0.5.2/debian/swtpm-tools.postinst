@@ -1,0 +1,9 @@
+#!/bin/sh
+
+SWTPM_LOCALCA_DIR=/var/lib/swtpm-localca
+
+if ! [ -d $SWTPM_LOCALCA_DIR ]; then
+	mkdir -p $SWTPM_LOCALCA_DIR
+	chown tss:root $SWTPM_LOCALCA_DIR
+	chmod 0750 $SWTPM_LOCALCA_DIR
+fi

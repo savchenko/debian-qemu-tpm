@@ -1,0 +1,314 @@
+tpm2/libtpms_tpm2_la-Memory.lo: tpm2/Memory.c /usr/include/stdc-predef.h \
+ tpm_library_conf.h tpm2/Tpm.h tpm2/Implementation.h \
+ tpm2/TpmBuildSwitches.h tpm2/CompilerDependencies.h \
+ /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/bits/long-double.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/timesize.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/time64.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h tpm2/BaseTypes.h \
+ tpm2/TPMB.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endianness.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+ /usr/include/openssl/bn.h /usr/include/openssl/e_os2.h \
+ /usr/include/x86_64-linux-gnu/openssl/opensslconf.h \
+ /usr/include/openssl/opensslv.h /usr/include/inttypes.h \
+ /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/10/include/stddef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/10/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/openssl/ossl_typ.h \
+ /usr/lib/gcc/x86_64-linux-gnu/10/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/10/include/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/openssl/crypto.h /usr/include/stdlib.h \
+ /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+ /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/time.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/openssl/safestack.h /usr/include/openssl/stack.h \
+ /usr/include/openssl/cryptoerr.h /usr/include/openssl/symhacks.h \
+ /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+ /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/include/openssl/bnerr.h \
+ tpm2/crypto/openssl/LibSupport.h tpm2/crypto/openssl/TpmToOsslHash.h \
+ /usr/include/openssl/evp.h /usr/include/openssl/bio.h \
+ /usr/include/openssl/bioerr.h /usr/include/openssl/evperr.h \
+ /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+ /usr/include/openssl/asn1.h /usr/include/openssl/asn1err.h \
+ /usr/include/openssl/objectserr.h /usr/include/openssl/sha.h \
+ tpm2/crypto/openssl/TpmToOsslSym.h /usr/include/openssl/aes.h \
+ /usr/include/openssl/des.h tpm2/crypto/openssl/TpmToOsslDesSupport_fp.h \
+ tpm2/GpMacros.h tpm2/swap.h tpm2/VendorString.h tpm2/Global.h \
+ /usr/include/string.h /usr/include/strings.h tpm2/Capabilities.h \
+ tpm2/TpmTypes.h tpm2/CommandAttributes.h tpm2/crypto/CryptTest.h \
+ tpm2/crypto/openssl/BnValues.h tpm2/crypto/openssl/TpmToOsslMath.h \
+ /usr/include/openssl/ec.h /usr/include/openssl/ecerr.h \
+ /usr/include/openssl/ecdsa.h tpm2/crypto/openssl/TpmToOsslSupport_fp.h \
+ tpm2/crypto/CryptHash.h tpm2/crypto/CryptSym.h tpm2/crypto/CryptRand.h \
+ tpm2/crypto/CryptEcc.h tpm2/crypto/CryptRsa.h tpm2/TpmError.h tpm2/NV.h \
+ tpm2/Utils.h tpm2/Memory_fp.h tpm2/InternalRoutines.h \
+ tpm2/_TPM_Hash_Start_fp.h tpm2/_TPM_Hash_Data_fp.h \
+ tpm2/_TPM_Hash_End_fp.h tpm2/Object_fp.h tpm2/Context_spt_fp.h \
+ tpm2/Object_spt_fp.h tpm2/Entity_fp.h tpm2/Session_fp.h \
+ tpm2/Hierarchy_fp.h tpm2/NVReserved_fp.h tpm2/NVMarshal.h \
+ /usr/lib/gcc/x86_64-linux-gnu/10/include/stdbool.h tpm2/NVDynamic_fp.h \
+ tpm2/NV_spt_fp.h tpm2/PCR_fp.h tpm2/DA_fp.h tpm2/TpmFail_fp.h \
+ tpm2/SessionProcess_fp.h tpm2/CommandCodeAttributes_fp.h \
+ tpm2/Marshal_fp.h tpm2/Unmarshal_fp.h tpm2/Time_fp.h tpm2/Locality_fp.h \
+ tpm2/PP_fp.h tpm2/CommandAudit_fp.h tpm2/Manufacture_fp.h \
+ tpm2/Handle_fp.h tpm2/Power_fp.h tpm2/Response_fp.h \
+ tpm2/CommandDispatcher_fp.h tpm2/Bits_fp.h tpm2/AlgorithmCap_fp.h \
+ tpm2/PropertyCap_fp.h tpm2/IoBuffers_fp.h \
+ tpm2/ResponseCodeProcessing_fp.h tpm2/crypto/openssl/BnConvert_fp.h \
+ tpm2/crypto/openssl/BnMath_fp.h tpm2/crypto/openssl/BnMemory_fp.h \
+ tpm2/Ticket_fp.h tpm2/crypto/CryptUtil_fp.h tpm2/crypto/CryptHash_fp.h \
+ tpm2/crypto/CryptSym_fp.h tpm2/crypto/CryptDes_fp.h \
+ tpm2/crypto/CryptPrime_fp.h tpm2/crypto/CryptRand_fp.h \
+ tpm2/CryptSelfTest_fp.h tpm2/MathOnByteBuffers_fp.h \
+ tpm2/AlgorithmTests_fp.h tpm2/crypto/CryptRsa_fp.h \
+ tpm2/crypto/CryptPrimeSieve_fp.h tpm2/crypto/CryptEccMain_fp.h \
+ tpm2/crypto/CryptEccSignature_fp.h tpm2/crypto/CryptEccKeyExchange_fp.h \
+ tpm2/crypto/CryptSmac_fp.h tpm2/Tpm.h tpm2/crypto/CryptCmac_fp.h \
+ tpm2/SupportLibraryFunctionPrototypes_fp.h tpm2/Platform_fp.h
+/usr/include/stdc-predef.h:
+tpm_library_conf.h:
+tpm2/Tpm.h:
+tpm2/Implementation.h:
+tpm2/TpmBuildSwitches.h:
+tpm2/CompilerDependencies.h:
+/usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h:
+/usr/include/stdint.h:
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+/usr/include/features.h:
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+/usr/include/x86_64-linux-gnu/bits/types.h:
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+tpm2/BaseTypes.h:
+tpm2/TPMB.h:
+/usr/include/endian.h:
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+/usr/include/openssl/bn.h:
+/usr/include/openssl/e_os2.h:
+/usr/include/x86_64-linux-gnu/openssl/opensslconf.h:
+/usr/include/openssl/opensslv.h:
+/usr/include/inttypes.h:
+/usr/include/stdio.h:
+/usr/lib/gcc/x86_64-linux-gnu/10/include/stddef.h:
+/usr/lib/gcc/x86_64-linux-gnu/10/include/stdarg.h:
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+/usr/include/openssl/ossl_typ.h:
+/usr/lib/gcc/x86_64-linux-gnu/10/include/limits.h:
+/usr/lib/gcc/x86_64-linux-gnu/10/include/syslimits.h:
+/usr/include/limits.h:
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+/usr/include/linux/limits.h:
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+/usr/include/openssl/crypto.h:
+/usr/include/stdlib.h:
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+/usr/include/x86_64-linux-gnu/sys/types.h:
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+/usr/include/x86_64-linux-gnu/sys/select.h:
+/usr/include/x86_64-linux-gnu/bits/select.h:
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+/usr/include/alloca.h:
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+/usr/include/time.h:
+/usr/include/x86_64-linux-gnu/bits/time.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+/usr/include/openssl/safestack.h:
+/usr/include/openssl/stack.h:
+/usr/include/openssl/cryptoerr.h:
+/usr/include/openssl/symhacks.h:
+/usr/include/pthread.h:
+/usr/include/sched.h:
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+/usr/include/openssl/bnerr.h:
+tpm2/crypto/openssl/LibSupport.h:
+tpm2/crypto/openssl/TpmToOsslHash.h:
+/usr/include/openssl/evp.h:
+/usr/include/openssl/bio.h:
+/usr/include/openssl/bioerr.h:
+/usr/include/openssl/evperr.h:
+/usr/include/openssl/objects.h:
+/usr/include/openssl/obj_mac.h:
+/usr/include/openssl/asn1.h:
+/usr/include/openssl/asn1err.h:
+/usr/include/openssl/objectserr.h:
+/usr/include/openssl/sha.h:
+tpm2/crypto/openssl/TpmToOsslSym.h:
+/usr/include/openssl/aes.h:
+/usr/include/openssl/des.h:
+tpm2/crypto/openssl/TpmToOsslDesSupport_fp.h:
+tpm2/GpMacros.h:
+tpm2/swap.h:
+tpm2/VendorString.h:
+tpm2/Global.h:
+/usr/include/string.h:
+/usr/include/strings.h:
+tpm2/Capabilities.h:
+tpm2/TpmTypes.h:
+tpm2/CommandAttributes.h:
+tpm2/crypto/CryptTest.h:
+tpm2/crypto/openssl/BnValues.h:
+tpm2/crypto/openssl/TpmToOsslMath.h:
+/usr/include/openssl/ec.h:
+/usr/include/openssl/ecerr.h:
+/usr/include/openssl/ecdsa.h:
+tpm2/crypto/openssl/TpmToOsslSupport_fp.h:
+tpm2/crypto/CryptHash.h:
+tpm2/crypto/CryptSym.h:
+tpm2/crypto/CryptRand.h:
+tpm2/crypto/CryptEcc.h:
+tpm2/crypto/CryptRsa.h:
+tpm2/TpmError.h:
+tpm2/NV.h:
+tpm2/Utils.h:
+tpm2/Memory_fp.h:
+tpm2/InternalRoutines.h:
+tpm2/_TPM_Hash_Start_fp.h:
+tpm2/_TPM_Hash_Data_fp.h:
+tpm2/_TPM_Hash_End_fp.h:
+tpm2/Object_fp.h:
+tpm2/Context_spt_fp.h:
+tpm2/Object_spt_fp.h:
+tpm2/Entity_fp.h:
+tpm2/Session_fp.h:
+tpm2/Hierarchy_fp.h:
+tpm2/NVReserved_fp.h:
+tpm2/NVMarshal.h:
+/usr/lib/gcc/x86_64-linux-gnu/10/include/stdbool.h:
+tpm2/NVDynamic_fp.h:
+tpm2/NV_spt_fp.h:
+tpm2/PCR_fp.h:
+tpm2/DA_fp.h:
+tpm2/TpmFail_fp.h:
+tpm2/SessionProcess_fp.h:
+tpm2/CommandCodeAttributes_fp.h:
+tpm2/Marshal_fp.h:
+tpm2/Unmarshal_fp.h:
+tpm2/Time_fp.h:
+tpm2/Locality_fp.h:
+tpm2/PP_fp.h:
+tpm2/CommandAudit_fp.h:
+tpm2/Manufacture_fp.h:
+tpm2/Handle_fp.h:
+tpm2/Power_fp.h:
+tpm2/Response_fp.h:
+tpm2/CommandDispatcher_fp.h:
+tpm2/Bits_fp.h:
+tpm2/AlgorithmCap_fp.h:
+tpm2/PropertyCap_fp.h:
+tpm2/IoBuffers_fp.h:
+tpm2/ResponseCodeProcessing_fp.h:
+tpm2/crypto/openssl/BnConvert_fp.h:
+tpm2/crypto/openssl/BnMath_fp.h:
+tpm2/crypto/openssl/BnMemory_fp.h:
+tpm2/Ticket_fp.h:
+tpm2/crypto/CryptUtil_fp.h:
+tpm2/crypto/CryptHash_fp.h:
+tpm2/crypto/CryptSym_fp.h:
+tpm2/crypto/CryptDes_fp.h:
+tpm2/crypto/CryptPrime_fp.h:
+tpm2/crypto/CryptRand_fp.h:
+tpm2/CryptSelfTest_fp.h:
+tpm2/MathOnByteBuffers_fp.h:
+tpm2/AlgorithmTests_fp.h:
+tpm2/crypto/CryptRsa_fp.h:
+tpm2/crypto/CryptPrimeSieve_fp.h:
+tpm2/crypto/CryptEccMain_fp.h:
+tpm2/crypto/CryptEccSignature_fp.h:
+tpm2/crypto/CryptEccKeyExchange_fp.h:
+tpm2/crypto/CryptSmac_fp.h:
+tpm2/Tpm.h:
+tpm2/crypto/CryptCmac_fp.h:
+tpm2/SupportLibraryFunctionPrototypes_fp.h:
+tpm2/Platform_fp.h:
